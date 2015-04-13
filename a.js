@@ -1,6 +1,17 @@
+function ass(message, result){
+	if(message){
+	console.log(result + "ok");
+	}else{
+	console.log(result + "failed");
+	}
+}
+
+
+
 function add(a,b){
 	return a+b;
 }
+
 function sub(a,b){
 	return a-b;
 }
