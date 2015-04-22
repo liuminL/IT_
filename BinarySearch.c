@@ -3,6 +3,7 @@ int BinarySearch(StaticTable *Tbl, ElementType K)
 	int left, right, mid, NoFound = -1;
 
 	left = 1;
+	
 	right = Tb1->Length;
 	while (left <= right)
 	{
