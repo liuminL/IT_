@@ -1,0 +1,29 @@
+#aas{
+		width: 100px;
+		height: 20px;
+		background: blue;
+		display: block;
+	}
+#kuai{
+		width: 200px;
+		height: 200px;
+		background: green;
+		display: none;
+	}
+#kuai2{
+	width: 100px;
+	visibility: hidden;
+	}
+#text1{
+	/*background: grey;*/
+	color: blue;
+	font-weight: bold;
+	text-align: right;
+	text-decoration: underline;/*相关内容查手册即可*/
+
+}
+#text2{
+	background: green;
+	text-indent: 20px;
+	text-align: center;
+}
