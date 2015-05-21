@@ -1,0 +1,42 @@
+#kb{
+	height: 100px;
+	z-index: 1;
+	float: none;
+	position: relative;
+}
+
+#up{
+	height: 136px;
+	text-align: center;
+
+	z-index: 300;
+	position: relative;
+}
+#center{
+	margin:20px;
+	height: 236px;
+	z-index: 200;
+	position: relative;
+
+}
+#foot{
+	height: 100px;
+	text-align: center;
+	position: relative;
+	bottom:100px;
+	z-index: 500;
+}
+
+#one{
+	width: 48%;
+	float: left;
+	background: white;
+	text-align: right;
+	z-index: 50;
+}
+#two{
+	width: 48%;
+	float: right;
+	text-align: left;
+	z-index: 50;
+}
