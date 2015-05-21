@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8" >
+</head>
+<body>
+	<!--<p id="pid">Hello</p>
+
+	<script src="test1.js"></script>
+	<button onclick="demo()">anniu</button>
+
+	<script type="text/javascript">
+			function demo(){
+			try{alert(srt);
+			}catch(err){
+			alert(err);
+		}}
+		demo();
+	
+	</script>  -->
+
+	<form>
+		<input id="txt" type="text">
+		<input id="btn" type="button" onclick="demo()" value="anniu">
+	</form>
+	<script type="text/javascript">
+		function demo(){
+			try{
+				var e=document.getElementById('txt').value;
+				if (e=="") {
+					throw "please input";
+				}catch (err){
+					alert(err);
+				}
+			}	
+		}
+	</script>
+</body>
+</html>

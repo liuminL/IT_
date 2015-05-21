@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	(function(){ 
+ 
+			var _alert = window.alert;
+			MyAlert = function(text) { 
+      						// add your own effect 
+      				document.write(text);
+					}; 
+					MyAlert.noConflict = function() { 
+      				window.alert = _alert; 
+				}; 
+ 
+             // expose API 
+			window.alert = window.MyAlert = MyAlert; 
+ 
+			})(); 
+ 
+			alert('haha');
+	</script>
+</body>
+</html>

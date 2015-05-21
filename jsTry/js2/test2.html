@@ -1,0 +1,60 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		事件
+	</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#rectangle{
+			width: 180px;
+			height: 180px;
+			background: blue;
+			position: relative;
+			margin:0 auto;
+		}
+	</style>
+</head>
+<body onload="mgs(this)">
+	<div id="rectangle" onmouseout="onOut(this)" onmouseover="onOver(this)" >
+
+	</div>
+	<script type="text/javascript">
+		function onOver(ooj){
+			ooj.innerHTML = "Hello";
+		}
+		function onOut(ooj){
+			ooj.innerHTML = "byebye";
+		}
+	</script>
+
+	<form>
+		<input type="text" onchange="changeDemo(this)">
+	</form>
+	<script type="text/javascript">
+		function changeDemo(bg){
+			alert("Hello,内容改变了");
+		}
+		alert(nihao );
+	</script>
+	<form>
+		<input type="text" onselect="onChange(this)" onfocus="changeDemo2(this)" onblur="close(this)">
+	</form>
+	<script type="text/javascript">
+		function onChange(bd){
+			bd.style.background = "red";
+		}
+		function changeDemo2(bd){
+			bd.style.background="blue";
+		}
+		function close(bg){
+			bg.style.background= "black";
+		}
+		function mgs(){
+			alert("网页内容加载完毕");
+		}
+	</script>
+
+	
+</body>
+</html>
