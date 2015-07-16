@@ -1,0 +1,33 @@
+$icons:1tr,google-plus,google-drive,facebook2,feed3,dribbble,github,finder,paypal2,chrome,firefox;
+body{
+	font:1.2em/1.5 Sans-serif;//css字体属性简写规则
+	text-align: center;
+	padding-top: 30px;
+}
+.social {
+	list-style: none outside none;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+
+	li{
+		display: inline-block;
+		margin: 5px;
+	}
+	[class^="icon-"]{
+    display: block;
+    width: 32px;
+    height: 32px;
+    text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("icomoon_11_icons/sprite/sprite.svg") no-repeat;
+
+
+	@for $i from 1 through length($icons){
+		&.icon-#{nth($icons,$i)}{
+			background-position:0 -1 * (($i - 1) * 42px) ;
+		}
+	}
+	}
+}

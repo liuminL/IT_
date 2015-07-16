@@ -1,0 +1,71 @@
+body {
+  font: 1.2em/1.5 Sans-serif;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.social {
+  list-style: none outside none;
+  margin: 0 auto;
+  padding: 0;
+  width: 550px;
+}
+
+.social li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.social [class^="icon-"] {
+  display: block;
+  width: 32px;
+  height: 32px;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url("icomoon_11_icons/sprite/sprite.svg") no-repeat;
+}
+
+.social [class^="icon-"].icon-1tr {
+  background-position: 0 0px;
+}
+
+.social [class^="icon-"].icon-google-plus {
+  background-position: 0 -42px;
+}
+
+.social [class^="icon-"].icon-google-drive {
+  background-position: 0 -84px;
+}
+
+.social [class^="icon-"].icon-facebook2 {
+  background-position: 0 -126px;
+}
+
+.social [class^="icon-"].icon-feed3 {
+  background-position: 0 -168px;
+}
+
+.social [class^="icon-"].icon-dribbble {
+  background-position: 0 -210px;
+}
+
+.social [class^="icon-"].icon-github {
+  background-position: 0 -252px;
+}
+
+.social [class^="icon-"].icon-finder {
+  background-position: 0 -294px;
+}
+
+.social [class^="icon-"].icon-paypal2 {
+  background-position: 0 -336px;
+}
+
+.social [class^="icon-"].icon-chrome {
+  background-position: 0 -378px;
+}
+
+.social [class^="icon-"].icon-firefox {
+  background-position: 0 -420px;
+}
